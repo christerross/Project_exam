@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A microsite for SpaceX">
+<link rel="stylesheet" href="styles/styles.css">
+
+
+<title>SpaceX</title>
+
+</head>
+<body>
+
+<div id="menu-bar">
+    <div id="menu" onclick="onClickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+    </div>
+    <ul class="hamnav" id="hamnav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="launch.html">Launches</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<header>
+    <a href="index.html"><img class="logo" src="Images/spacexlogo.png" alt="Logo for SpaceX" style="width: 30%">
+    </a> 
+    
+</header>
+
+<nav class="topnav">
+    <ul>
+        <li><a href="index.html" title="Home" class="hometab">Home</a></li>
+        <li><a href="about.html" title="About" class="abouttab">About</a></li>
+        <li><a href="launch.html" title="Launches" class="lanchtab">Launches</a></li>
+        <li><a href="contact.html" title="Contact" class="contacttab">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="con3">
+<div class="launchbox">
+  <img class="img3" src="Images/rocketlaunch.jpg" alt="Picture of a rocket launch">
+   <h1>Launches</h1>
+    <div class="launchtext">
+        The space program activity never slows down. And the SpaceX program have alot planned in years to come. By following the link below you can see a full list of both planned launches and a log of previous launches.
+        <div class="launchbtn">
+        <button type="button" onclick="window.location.href = 'https://spaceflightnow.com/launch-schedule/';">Lift Off</button> 
+        </div>
+    </div>  
+</div>
+</div>
+
+<div class="footer">
+    <p class="copy">2019 &copy; nevermade.no</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
